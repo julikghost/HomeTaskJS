@@ -28,30 +28,26 @@
      display: block;
    }
    body {
-     line-height: 1;
+    background-image:url(img\bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
    }
 @font-face
 {
   font-family:Brandon;
   src:url('fonts/Brandon.otf')
 } 
-.section{
-  background-color: none;
-  background-image:url(img\bg.jpg);
-  background-repeat: no-repeat;
-  background-size:cover; 
-  padding: 50px 0 125px;
-  }
 h2{font-size: 25px; color: rgb(185, 3, 235); }
 
-
-  .header{
-    background:#21f101;
-    padding: 40px 0 40px;
-  }
-  .h1{
+    .h1{
     font-size: 48px;
     color: rgb(54, 3, 68);
     font-weight: bold;
+     background:hsl(68, 70%, 50%);
+    padding: 40px 0 40px;
   }
- 
+ .converter {
+  background:hsl(60, 70%, 50%);
+ }
+ .converter p 
+ {font-size: 25px; color: rgb(104, 4, 132); }
