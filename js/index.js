@@ -6,4 +6,8 @@ document.write(km + '  kms = ' + convertKmToMiles(km) + ' miles');
 
 const numbers = alert('Fill in array');
   
+
+alert( sumInput() );
+
+
 document.write ("Sum of the numbers is: " + sumInput());
